@@ -1,0 +1,432 @@
+[
+    {
+        "id": "ziyon",
+        "symbol": "ion",
+        "name": "ZIYØN SAS"
+    },
+    {
+        "id": "zizle",
+        "symbol": "zizle",
+        "name": "Zizle"
+    },
+    {
+        "id": "zjoe",
+        "symbol": "zjoe",
+        "name": "zJOE"
+    },
+    {
+        "id": "zkapes-token",
+        "symbol": "zat",
+        "name": "zkApes Token"
+    },
+    {
+        "id": "zkarchive",
+        "symbol": "zkarch",
+        "name": "zkArchive"
+    },
+    {
+        "id": "zkcross-network",
+        "symbol": "cross",
+        "name": "zkCross Network"
+    },
+    {
+        "id": "zkcult",
+        "symbol": "zcult",
+        "name": "zkCULT"
+    },
+    {
+        "id": "zkdoge",
+        "symbol": "zkdoge",
+        "name": "zkDoge"
+    },
+    {
+        "id": "zkdx",
+        "symbol": "zkdx",
+        "name": "ZKDX"
+    },
+    {
+        "id": "zkera-finance",
+        "symbol": "zke",
+        "name": "zkEra Finance"
+    },
+    {
+        "id": "zkevmchain-bsc",
+        "symbol": "zkevm",
+        "name": "zkEVMChain (BSC)"
+    },
+    {
+        "id": "zkfair",
+        "symbol": "zkf",
+        "name": "ZKFair"
+    },
+    {
+        "id": "zkfarmer-io-zkbud",
+        "symbol": "zkb farm",
+        "name": "zkFarmer.io zkBud"
+    },
+    {
+        "id": "zkgap",
+        "symbol": "zkgap",
+        "name": "ZKGAP"
+    },
+    {
+        "id": "zkgrok",
+        "symbol": "zkgrok",
+        "name": "ZKGROK"
+    },
+    {
+        "id": "zkgun",
+        "symbol": "zkgun",
+        "name": "zkGUN"
+    },
+    {
+        "id": "zkhive",
+        "symbol": "zkhive",
+        "name": "zkHive"
+    },
+    {
+        "id": "zkinfra",
+        "symbol": "zkin",
+        "name": "zkInfra"
+    },
+    {
+        "id": "zkitty-bot",
+        "symbol": "$zkitty",
+        "name": "ZKitty Bot"
+    },
+    {
+        "id": "zklaunchpad",
+        "symbol": "zkpad",
+        "name": "zkLaunchpad"
+    },
+    {
+        "id": "zklend-2",
+        "symbol": "zend",
+        "name": "zkLend"
+    },
+    {
+        "id": "zklink",
+        "symbol": "zkl",
+        "name": "zkLink"
+    },
+    {
+        "id": "zklock",
+        "symbol": "zklk",
+        "name": "ZkLock"
+    },
+    {
+        "id": "zklotto",
+        "symbol": "zklotto",
+        "name": "zkLotto"
+    },
+    {
+        "id": "zkml",
+        "symbol": "zkml",
+        "name": "zKML"
+    },
+    {
+        "id": "zkpepe",
+        "symbol": "zkpepe",
+        "name": "ZKPepe"
+    },
+    {
+        "id": "zkpepe-2",
+        "symbol": "zkpepe",
+        "name": "ZKPEPE"
+    },
+    {
+        "id": "zkproof",
+        "symbol": "zkp",
+        "name": "zkProof"
+    },
+    {
+        "id": "zkshield",
+        "symbol": "zkshield",
+        "name": "zkSHIELD"
+    },
+    {
+        "id": "zkspace",
+        "symbol": "zkb",
+        "name": "ZKBase"
+    },
+    {
+        "id": "zksvm",
+        "symbol": "zksvm",
+        "name": "zkSVM"
+    },
+    {
+        "id": "zkswap-92fc4897-ea4c-4692-afc9-a9840a85b4f2",
+        "symbol": "zksp",
+        "name": "zkSwap"
+    },
+    {
+        "id": "zkswap-finance",
+        "symbol": "zf",
+        "name": "zkSwap Finance"
+    },
+    {
+        "id": "zksync",
+        "symbol": "zk",
+        "name": "ZKsync"
+    },
+    {
+        "id": "zksync-bridged-usdc-zksync",
+        "symbol": "usdc",
+        "name": "zkSync Bridged USDC (zkSync)"
+    },
+    {
+        "id": "zksync-id",
+        "symbol": "zkid",
+        "name": "zkSync id"
+    },
+    {
+        "id": "zktao",
+        "symbol": "zao",
+        "name": "zkTAO"
+    },
+    {
+        "id": "zktsunami",
+        "symbol": ":zkt:",
+        "name": "ZkTsunami"
+    },
+    {
+        "id": "zkx",
+        "symbol": "$zkx",
+        "name": "ZKX"
+    },
+    {
+        "id": "zkzone",
+        "symbol": "zkz",
+        "name": "Zkzone"
+    },
+    {
+        "id": "zmine",
+        "symbol": "zmn",
+        "name": "ZMINE"
+    },
+    {
+        "id": "zoci",
+        "symbol": "zoci",
+        "name": "Zoci"
+    },
+    {
+        "id": "zodiacsv2",
+        "symbol": "zdcv2",
+        "name": "ZodiacsV2"
+    },
+    {
+        "id": "zodium",
+        "symbol": "zodi",
+        "name": "Zodium"
+    },
+    {
+        "id": "zoid-pay",
+        "symbol": "zpay",
+        "name": "ZoidPay"
+    },
+    {
+        "id": "zoink",
+        "symbol": "zoink",
+        "name": "Zoink"
+    },
+    {
+        "id": "zombiecoin",
+        "symbol": "zmb",
+        "name": "ZombieCoin"
+    },
+    {
+        "id": "zombie-inu-2",
+        "symbol": "zinu",
+        "name": "ZINU"
+    },
+    {
+        "id": "zone",
+        "symbol": "zone",
+        "name": "Zone"
+    },
+    {
+        "id": "zonko-usdz",
+        "symbol": "usdz",
+        "name": "ZONKO USDZ"
+    },
+    {
+        "id": "zoobit-finance",
+        "symbol": "zb",
+        "name": "Zoobit Finance"
+    },
+    {
+        "id": "zoocoin",
+        "symbol": "zoo",
+        "name": "ZooCoin"
+    },
+    {
+        "id": "zoo-coin",
+        "symbol": "zoo",
+        "name": "ZooCoin (OLD)"
+    },
+    {
+        "id": "zoo-crypto-world",
+        "symbol": "zoo",
+        "name": "ZOO Crypto World"
+    },
+    {
+        "id": "zoodao",
+        "symbol": "zoo",
+        "name": "ZooDAO"
+    },
+    {
+        "id": "zookeeper",
+        "symbol": "zoo",
+        "name": "ZooKeeper"
+    },
+    {
+        "id": "zoomer",
+        "symbol": "zoomer",
+        "name": "Zoomer"
+    },
+    {
+        "id": "zoomer-2",
+        "symbol": "zoomer",
+        "name": "Zoomer"
+    },
+    {
+        "id": "zoomer-sol",
+        "symbol": "zoomer",
+        "name": "Zoomer"
+    },
+    {
+        "id": "zoomswap",
+        "symbol": "zm",
+        "name": "ZoomSwap"
+    },
+    {
+        "id": "zoopia",
+        "symbol": "zooa",
+        "name": "Zoopia"
+    },
+    {
+        "id": "zoo-token",
+        "symbol": "zoot",
+        "name": "Zoo"
+    },
+    {
+        "id": "zora-bridged-weth-zora-network",
+        "symbol": "weth",
+        "name": "Zora Bridged WETH (Zora Network)"
+    },
+    {
+        "id": "zorksees",
+        "symbol": "zorksees",
+        "name": "Zorksees"
+    },
+    {
+        "id": "zorro",
+        "symbol": "zorro",
+        "name": "Zorro"
+    },
+    {
+        "id": "z-protocol",
+        "symbol": "zp",
+        "name": "Z Protocol"
+    },
+    {
+        "id": "ztx",
+        "symbol": "ztx",
+        "name": "ZTX"
+    },
+    {
+        "id": "zum-token",
+        "symbol": "zum",
+        "name": "ZUM"
+    },
+    {
+        "id": "zunami-eth-2",
+        "symbol": "zuneth",
+        "name": "Zunami ETH"
+    },
+    {
+        "id": "zunami-governance-token",
+        "symbol": "zun",
+        "name": "Zunami Governance Token"
+    },
+    {
+        "id": "zunami-usd",
+        "symbol": "zunusd",
+        "name": "Zunami USD"
+    },
+    {
+        "id": "zurf",
+        "symbol": "zurf",
+        "name": "ZURF"
+    },
+    {
+        "id": "zurrency",
+        "symbol": "zurr",
+        "name": "ZURRENCY"
+    },
+    {
+        "id": "zushi",
+        "symbol": "zushi",
+        "name": "ZUSHI"
+    },
+    {
+        "id": "zuzalu",
+        "symbol": "zuzalu",
+        "name": "zuzalu"
+    },
+    {
+        "id": "zuzalu-inu",
+        "symbol": "zuzalu",
+        "name": "Zuzalu Inu"
+    },
+    {
+        "id": "zuzuai",
+        "symbol": "zuzuai",
+        "name": "ZUZUAI"
+    },
+    {
+        "id": "zuzu-coin",
+        "symbol": "zuzu",
+        "name": "ZUZU COIN"
+    },
+    {
+        "id": "zyberswap",
+        "symbol": "zyb",
+        "name": "Zyberswap"
+    },
+    {
+        "id": "zydio-ai",
+        "symbol": "zdai",
+        "name": "Zydio AI"
+    },
+    {
+        "id": "zyncoin-2",
+        "symbol": "zyn",
+        "name": "ZynCoin"
+    },
+    {
+        "id": "zynecoin",
+        "symbol": "zyn",
+        "name": "Zynecoin"
+    },
+    {
+        "id": "zynergy",
+        "symbol": "zyn",
+        "name": "Zynergy"
+    },
+    {
+        "id": "zyrri",
+        "symbol": "zyr",
+        "name": "Zyrri"
+    },
+    {
+        "id": "zzz",
+        "symbol": "zzz",
+        "name": "GoSleep ZZZ"
+    },
+    {
+        "id": "z-z-z-z-z-fehu-z-z-z-z-z",
+        "symbol": "ᚠ",
+        "name": "Z•Z•Z•Z•Z•FEHU•Z•Z•Z•Z•Z"
+    }
+]
