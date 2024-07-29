@@ -83,11 +83,11 @@ def writeBackup(normalized_data, raw_data):
             logger.error(f"Error writing backup: {e}")
             logger.error(traceback.format_exc())
 
-def periodic_backup(output_queue, raw_output_queue):
+def periodic_backup(output_queue, raw_output_queue, shutdown_event: Event):
     normalized_buffer = []
     raw_buffer = []
-    while True:
-        try:
+    try:
+        while not shutdown_event.is_set():
             normalized = output_queue.get(timeout=1)
             if normalized is None:
                 break
@@ -102,11 +102,11 @@ def periodic_backup(output_queue, raw_output_queue):
                 writeBackup(normalized_buffer, raw_buffer)
                 normalized_buffer = []
                 raw_buffer = []
-        except Empty:
-            if normalized_buffer:
-                writeBackup(normalized_buffer, raw_buffer)
-                normalized_buffer = []
-                raw_buffer = []
+    except Empty:
+        if normalized_buffer:
+            writeBackup(normalized_buffer, raw_buffer)
+            normalized_buffer = []
+            raw_buffer = []
 
     # Write any remaining data
     if normalized_buffer:
@@ -200,8 +200,8 @@ def process_ids():
     shutdown_event = Event()
 
     try:
-        list_json = makeGetRequest(list_url, headers, rate_limiter)
-        # list_json = read_json_file('test.json') # use this to test it with a local file
+        # list_json = makeGetRequest(list_url, headers, rate_limiter)
+        list_json = read_json_file('test.json') # use this to test it with a local file
         
         # Initialize variables for ETA calculation and progress display
         total_coins = len(list_json)
@@ -215,7 +215,7 @@ def process_ids():
         for coin in list_json:
             task_queue.put(coin)
 
-        backup_thread = Thread(target=periodic_backup, args=(output_queue, raw_output_queue))
+        backup_thread = Thread(target=periodic_backup, args=(output_queue, raw_output_queue, shutdown_event))
         backup_thread.start()
 
         num_threads = 5 # Seems reasonable we're limited to 8.33 calls per second
